@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2024-01-17T10:13:37.797Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.20" etag="7Rz6KQkGte4Lb7ggOnVK" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-17T11:19:20.848Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="g9RZVVnKic2p0Rrzn8S4" version="22.1.20" type="github">
   <diagram name="Page-1" id="dIVR7teXfzR3m7-OKjQb">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yk98Ds59bbD83YHuv-ie-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="590" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="yk98Ds59bbD83YHuv-ie-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="yk98Ds59bbD83YHuv-ie-6" target="yk98Ds59bbD83YHuv-ie-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yk98Ds59bbD83YHuv-ie-6" value="Card API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yk98Ds59bbD83YHuv-ie-7" value="Check Eligibility&lt;br&gt;Of&lt;br&gt;NRT Commission" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="325" y="180" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yk98Ds59bbD83YHuv-ie-9" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- Activate date == today&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;- Not yet pushed to the queue" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="230" width="210" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
