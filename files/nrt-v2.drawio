@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T11:38:26.828Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PQB5V7BNdR9AShJ4Rc1Y" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:38:56.854Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="m7Y_MUYfG1yp6VwfvjF_" version="22.1.20" type="github">
   <diagram name="Page-1" id="UrZeXDbGV69RrI5Io3Zl">
     <mxGraphModel dx="989" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -55,7 +55,7 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-16" value="Check Eligibility&lt;br&gt;Of&lt;br&gt;NRT Commission" style="rhombus;whiteSpace=wrap;html=1;align=center;fontColor=#000000;strokeColor=#000000;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1032" y="687.5" width="180" height="135" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign&lt;/span&gt;&lt;/div&gt;-&amp;nbsp; if the above condition is true then the update flag is eligible for login or not" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-17" value="&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign (login)&lt;/span&gt;&lt;/div&gt;-&amp;nbsp; if the above condition is true then the update flag is eligible for login or not" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="991" y="640" width="280" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
