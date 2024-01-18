@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T11:31:13.680Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="J_2UoMetKavL8lnlq-8V" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:31:40.816Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="O1DTSNqjun3eUqdQHNAs" version="22.1.20" type="github">
   <diagram name="Page-1" id="UrZeXDbGV69RrI5Io3Zl">
     <mxGraphModel dx="1434" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -172,7 +172,7 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-108" value="- Update watch flag status if data found in ES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1090" y="1055" width="258" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-109" value="- Retrieve msisdn list who not visited watch page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-109" value="- Every hour retrieve msisdn list who not visited watch page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="888.5" y="1150" width="171.5" height="30" as="geometry" />
         </mxCell>
       </root>
