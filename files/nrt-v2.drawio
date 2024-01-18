@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-18T11:37:22.381Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="vgsZQlxHJD8MJy3bXn6s" version="22.1.20" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-18T11:38:26.828Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="PQB5V7BNdR9AShJ4Rc1Y" version="22.1.20" type="github">
   <diagram name="Page-1" id="UrZeXDbGV69RrI5Io3Zl">
-    <mxGraphModel dx="3585" dy="1823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="989" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -142,9 +142,6 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-88" target="Mq8e5ylbVNJ1cfO45JXW-82">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-88" target="Mq8e5ylbVNJ1cfO45JXW-100">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-88" value="Check Eligibility&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Of&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Commission" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1240" y="1403.5" width="148.75" height="119" as="geometry" />
         </mxCell>
@@ -154,26 +151,23 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-99" value="-&amp;nbsp; Check watch page was visited or not from ES&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign (watch)&lt;/div&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp; if the above condition is true then the update flag is eligible for watch or not&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1230" y="1535" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-100" value="Update DB" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1473.5" y="1290" width="164" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-80" target="Mq8e5ylbVNJ1cfO45JXW-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=82.5;entryPerimeter=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-100" target="Mq8e5ylbVNJ1cfO45JXW-19">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-106" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="1300" width="60" height="30" as="geometry" />
+          <mxGeometry x="1320" y="1310" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-107" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1390" y="1428" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-108" value="- Update watch flag status if data found in ES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1090" y="1055" width="258" height="30" as="geometry" />
+          <mxGeometry x="1032" y="1055" width="258" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-109" value="- Every hour retrieve msisdn list who not visited watch page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="888.5" y="1220" width="171.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.006;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-88" target="Mq8e5ylbVNJ1cfO45JXW-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
