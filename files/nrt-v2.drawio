@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T15:49:25.217Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5cWYg3C8ESlSFyqZ0yaW" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T15:51:41.826Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="4zTxUzrN6vJh2XbbAwvh" version="22.1.21" type="github">
   <diagram name="Page-1" id="UrZeXDbGV69RrI5Io3Zl">
     <mxGraphModel dx="1434" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -131,23 +131,20 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-95" value="- File upload to ESTS server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1350" y="1830" width="172" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-99" value="-&amp;nbsp; Check watch page was visited or not from ES&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign (watch)&lt;/div&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp; if the above condition is true then the update flag is eligible = true and campaign = watch&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1710" y="1340" width="500" height="30" as="geometry" />
+        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-99" value="-&amp;nbsp; Check watch page was visited or not from ES&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign (watch)&lt;/div&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp; if the above condition is true then the update eligibility status = true &lt;br&gt;and campaign = watch&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="1668" y="1327" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-106" value="Yes&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1660" y="1310" width="60" height="30" as="geometry" />
+          <mxGeometry x="1588" y="1320" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-107" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1730" y="1428" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-108" value="- Update campaign = watch&amp;nbsp; and eligibility status = true and login time = es timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1312" y="1070" width="258" height="30" as="geometry" />
+          <mxGeometry x="1320" y="1130" width="258" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-109" value="- Every hour retrieve msisdn list who not visited watch page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1256.75" y="1211" width="171.5" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.006;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-88" target="Mq8e5ylbVNJ1cfO45JXW-19" edge="1">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-ZpJTBhc6arbUY3d9E2E-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182" y="1280" width="990" height="310" as="geometry" />
@@ -199,9 +196,6 @@
         <mxCell id="-ZpJTBhc6arbUY3d9E2E-25" value="- If found in ES but does not match the criteria&lt;br&gt;- Update campaign = watch&amp;nbsp; and eligibility status = false" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1300" y="1600" width="348" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-ZpJTBhc6arbUY3d9E2E-26" value="Text" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="1360" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="-ZpJTBhc6arbUY3d9E2E-27" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1660" y="1535" width="60" height="30" as="geometry" />
         </mxCell>
@@ -213,6 +207,15 @@
         </mxCell>
         <mxCell id="-ZpJTBhc6arbUY3d9E2E-33" value="- Update shared status = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="1">
           <mxGeometry x="932" y="1181" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-ZpJTBhc6arbUY3d9E2E-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=82.5;entryPerimeter=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-88" target="Mq8e5ylbVNJ1cfO45JXW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ZpJTBhc6arbUY3d9E2E-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-83" target="Mq8e5ylbVNJ1cfO45JXW-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-ZpJTBhc6arbUY3d9E2E-36" value="- Update shared status = true" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1951" y="1040" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
