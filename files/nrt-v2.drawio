@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T16:35:20.391Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="csU3J_y4j_R4BNSnaNxm" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T16:37:27.342Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Vkg3Sf-QDJeJK1hz29DJ" version="22.1.21" type="github">
   <diagram name="Page-1" id="UrZeXDbGV69RrI5Io3Zl">
-    <mxGraphModel dx="5736" dy="2916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1366" dy="694" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,8 +140,8 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-108" value="- Update campaign = watch&amp;nbsp; and eligibility status = true and login time = es timestamp" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1320" y="1230" width="258" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-109" value="- Every hour retrieve msisdn list who not visited watch page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="1278.75" y="1311" width="171.5" height="30" as="geometry" />
+        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-109" value="- Every hour retrieve msisdn list who not visited watch page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" parent="1" vertex="1">
+          <mxGeometry x="1161" y="1380" width="171.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="-ZpJTBhc6arbUY3d9E2E-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="182" y="1380" width="990" height="310" as="geometry" />
