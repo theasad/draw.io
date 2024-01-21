@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-21T15:32:12.072Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="gwVzo-aA0w5X3BUpLKdm" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-21T15:33:14.368Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5BJOAouToMmPpfDqPBXt" version="22.1.21" type="github">
   <diagram name="Page-1" id="UrZeXDbGV69RrI5Io3Zl">
     <mxGraphModel dx="1434" dy="729" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -142,7 +142,7 @@
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-95" value="- File upload to ESTS server" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1180" y="1830" width="172" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-99" value="-&amp;nbsp; Check watch page was visited or not from ES&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign (watch)&lt;/div&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp; if the above condition is true then the update flag is eligible for watch or not&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="Mq8e5ylbVNJ1cfO45JXW-99" value="-&amp;nbsp; Check watch page was visited or not from ES&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;-&amp;nbsp; Device count &amp;lt;=2 by campaign (watch)&lt;/div&gt;&lt;span style=&quot;&quot;&gt;-&amp;nbsp; if the above condition is true then the update flag is eligible = true and campaign = watch&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1390" y="1535" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Mq8e5ylbVNJ1cfO45JXW-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Mq8e5ylbVNJ1cfO45JXW-80" target="Mq8e5ylbVNJ1cfO45JXW-19" edge="1">
