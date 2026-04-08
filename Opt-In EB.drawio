@@ -7,7 +7,7 @@
         <mxCell id="oTUoFUCB_2ZnPt48u341-4" edge="1" parent="1" source="oTUoFUCB_2ZnPt48u341-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oTUoFUCB_2ZnPt48u341-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oTUoFUCB_2ZnPt48u341-6" connectable="0" parent="oTUoFUCB_2ZnPt48u341-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Avail EB Req." vertex="1">
+        <mxCell id="oTUoFUCB_2ZnPt48u341-6" connectable="0" parent="oTUoFUCB_2ZnPt48u341-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active EB Req." vertex="1">
           <mxGeometry relative="1" x="-0.1077" y="-4" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
@@ -18,7 +18,7 @@
         <mxCell id="oTUoFUCB_2ZnPt48u341-5" edge="1" parent="1" source="oTUoFUCB_2ZnPt48u341-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oTUoFUCB_2ZnPt48u341-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oTUoFUCB_2ZnPt48u341-7" connectable="0" parent="oTUoFUCB_2ZnPt48u341-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Avail EB" vertex="1">
+        <mxCell id="oTUoFUCB_2ZnPt48u341-7" connectable="0" parent="oTUoFUCB_2ZnPt48u341-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active EB" vertex="1">
           <mxGeometry relative="1" x="0.0057" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
