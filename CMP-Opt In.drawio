@@ -1,0 +1,40 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="wWTae3PwhuRL_Yd9nK6J">
+    <mxGraphModel dx="1006" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-3" edge="1" parent="1" source="lyLf9_yhkBnCoDwRuji1-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="lyLf9_yhkBnCoDwRuji1-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-4" connectable="0" parent="lyLf9_yhkBnCoDwRuji1-3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Opt-in Request" vertex="1">
+          <mxGeometry relative="1" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.android.phone2;fillColor=#4c1d95;strokeColor=#8b5cf6;strokeWidth=2;" value="MyGP App" vertex="1">
+          <mxGeometry height="90" width="50" x="70" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-6" edge="1" parent="1" source="lyLf9_yhkBnCoDwRuji1-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="lyLf9_yhkBnCoDwRuji1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-7" connectable="0" parent="lyLf9_yhkBnCoDwRuji1-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; background-color: rgb(27, 29, 30);&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20connectable%3D%220%22%20parent%3D%221%22%20style%3D%22edgeLabel%3Bhtml%3D1%3Balign%3Dcenter%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3B%22%20value%3D%22Opt-in%20Request%22%20vertex%3D%221%22%3E%3CmxGeometry%20x%3D%22175%22%20y%3D%22344%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3O&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-8" connectable="0" parent="lyLf9_yhkBnCoDwRuji1-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Opt-in" vertex="1">
+          <mxGeometry relative="1" x="-0.0133" y="-2" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Product Order MS" vertex="1">
+          <mxGeometry height="60" width="120" x="250" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="lyLf9_yhkBnCoDwRuji1-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="CMP" vertex="1">
+          <mxGeometry height="60" width="120" x="500" y="315" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
