@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="nU_eipF8lKY9TrnQ2peR">
+    <mxGraphModel dx="1006" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-8" edge="1" parent="1" source="_rEU3YEY8k1dL5kSrwFz-1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="_rEU3YEY8k1dL5kSrwFz-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="140" y="410" as="sourcePoint" />
+            <mxPoint x="190" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-9" connectable="0" parent="_rEU3YEY8k1dL5kSrwFz-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Campaign Activate Request" vertex="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.android.phone2;fillColor=#4c1d95;strokeColor=#8b5cf6;strokeWidth=2;" value="MyGP App" vertex="1">
+          <mxGeometry height="90" width="50" x="100" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-11" edge="1" parent="1" source="_rEU3YEY8k1dL5kSrwFz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="_rEU3YEY8k1dL5kSrwFz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-12" connectable="0" parent="_rEU3YEY8k1dL5kSrwFz-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Manage Product" vertex="1">
+          <mxGeometry relative="1" y="3" as="geometry">
+            <mxPoint y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Product Order MS" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="FUSE" vertex="1">
+          <mxGeometry height="60" width="120" x="570" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Catalog MS" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-6" edge="1" parent="1" source="_rEU3YEY8k1dL5kSrwFz-2" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="_rEU3YEY8k1dL5kSrwFz-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="350" y="340" as="sourcePoint" />
+            <mxPoint x="400" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-7" connectable="0" parent="_rEU3YEY8k1dL5kSrwFz-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Validate Catalog" vertex="1">
+          <mxGeometry relative="1" x="-0.0222" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
