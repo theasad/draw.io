@@ -29,7 +29,7 @@
         <mxCell id="7W01dcyOXWCmBY789FXU-2" edge="1" parent="1" source="_rEU3YEY8k1dL5kSrwFz-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="7W01dcyOXWCmBY789FXU-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7W01dcyOXWCmBY789FXU-3" connectable="0" parent="7W01dcyOXWCmBY789FXU-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Opt-In Request (BTL)" vertex="1">
+        <mxCell id="7W01dcyOXWCmBY789FXU-3" connectable="0" parent="7W01dcyOXWCmBY789FXU-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Opt-In Request&lt;br&gt;(BTL)" vertex="1">
           <mxGeometry relative="1" x="0.0083" as="geometry">
             <mxPoint x="1" y="1" as="offset" />
           </mxGeometry>
@@ -46,7 +46,7 @@
             <mxPoint x="400" y="290" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_rEU3YEY8k1dL5kSrwFz-7" connectable="0" parent="_rEU3YEY8k1dL5kSrwFz-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Validate (Catalog/Flexiplan)" vertex="1">
+        <mxCell id="_rEU3YEY8k1dL5kSrwFz-7" connectable="0" parent="_rEU3YEY8k1dL5kSrwFz-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Validate&lt;br&gt;(Catalog/Flexiplan)" vertex="1">
           <mxGeometry relative="1" x="-0.0222" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
