@@ -7,18 +7,18 @@
         <mxCell id="oTUoFUCB_2ZnPt48u341-4" edge="1" parent="1" source="oTUoFUCB_2ZnPt48u341-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oTUoFUCB_2ZnPt48u341-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oTUoFUCB_2ZnPt48u341-6" connectable="0" parent="oTUoFUCB_2ZnPt48u341-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active EB Req." vertex="1">
+        <mxCell id="oTUoFUCB_2ZnPt48u341-6" connectable="0" parent="oTUoFUCB_2ZnPt48u341-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BT Req." vertex="1">
           <mxGeometry relative="1" x="-0.1077" y="-4" as="geometry">
             <mxPoint y="-3" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="oTUoFUCB_2ZnPt48u341-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;outlineConnect=0;shape=mxgraph.android.phone2;fillColor=#4c1d95;strokeColor=#8b5cf6;strokeWidth=2;" value="MyGP App" vertex="1">
-          <mxGeometry height="90" width="50" x="90" y="425" as="geometry" />
+          <mxGeometry height="90" width="50" x="100" y="425" as="geometry" />
         </mxCell>
         <mxCell id="oTUoFUCB_2ZnPt48u341-5" edge="1" parent="1" source="oTUoFUCB_2ZnPt48u341-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="oTUoFUCB_2ZnPt48u341-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oTUoFUCB_2ZnPt48u341-7" connectable="0" parent="oTUoFUCB_2ZnPt48u341-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Active EB" vertex="1">
+        <mxCell id="oTUoFUCB_2ZnPt48u341-7" connectable="0" parent="oTUoFUCB_2ZnPt48u341-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="BT" vertex="1">
           <mxGeometry relative="1" x="0.0057" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -26,8 +26,8 @@
         <mxCell id="oTUoFUCB_2ZnPt48u341-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" value="Product Order MS" vertex="1">
           <mxGeometry height="60" width="120" x="270" y="440" as="geometry" />
         </mxCell>
-        <mxCell id="oTUoFUCB_2ZnPt48u341-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" value="FUSE" vertex="1">
-          <mxGeometry height="60" width="120" x="510" y="440" as="geometry" />
+        <mxCell id="oTUoFUCB_2ZnPt48u341-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" value="ERS" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
