@@ -1,0 +1,187 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="DA Threshold Flow - Modern" id="KbE4S-fRvQmCF85RSyoX">
+    <mxGraphModel dx="2236" dy="1329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-33" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=30;fontStyle=1;fontColor=#1f2937;" value="DOB / Digital Pack Purchase Flow" vertex="1">
+          <mxGeometry height="50" width="760" x="1050" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=14;fontColor=#6b7280;" value="DOB requires OTP + JWT validation; Digital purchase skips OTP token and returns result based on SOL response" vertex="1">
+          <mxGeometry height="30" width="970" x="945" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#eff6ff;strokeColor=#3b82f6;strokeWidth=2;fontSize=13;spacing=10;shadow=1;" value="🌐&lt;br&gt;&lt;b&gt;FE Check Payment Method&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;DOB / Digital selected&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="260" x="1290" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-36" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontSize=14;fontStyle=1;shadow=1;" value="Payment Method?" vertex="1">
+          <mxGeometry height="120" width="200" x="1320" y="1315" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-37" parent="1" style="swimlane;html=1;rounded=1;arcSize=8;whiteSpace=wrap;fillColor=#fff1f2;strokeColor=#f43f5e;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#9f1239;startSize=34;shadow=1;" value="DOB Payment Flow" vertex="1">
+          <mxGeometry height="365" width="700" x="610" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-38" parent="cDC9E2_19vPxRuhWPPhf-37" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#f43f5e;strokeWidth=1.5;fontSize=13;spacing=8;" value="📲&lt;br&gt;&lt;b&gt;FE Requests OTP&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Start DOB verification&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="190" x="35" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-39" parent="cDC9E2_19vPxRuhWPPhf-37" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#f43f5e;strokeWidth=1.5;fontSize=13;spacing=8;" value="🔐&lt;br&gt;&lt;b&gt;User Verifies OTP&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Submit OTP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="190" x="255" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-40" parent="cDC9E2_19vPxRuhWPPhf-37" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#f43f5e;strokeWidth=1.5;fontSize=13;spacing=8;" value="🧾&lt;br&gt;&lt;b&gt;MyGP Service Order / OTP Verify API&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Validate OTP&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="190" x="475" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-41" parent="cDC9E2_19vPxRuhWPPhf-37" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#f43f5e;strokeWidth=1.5;fontSize=13;spacing=8;" value="🎟️&lt;br&gt;&lt;b&gt;Return OTP Verification JWT&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Verification token&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="220" x="255" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-42" parent="cDC9E2_19vPxRuhWPPhf-37" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#f43f5e;strokeWidth=1.5;fontSize=13;spacing=8;" value="🛒&lt;br&gt;&lt;b&gt;FE Calls Purchase API&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;With OTP Verification JWT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="190" x="35" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-43" edge="1" parent="cDC9E2_19vPxRuhWPPhf-37" source="cDC9E2_19vPxRuhWPPhf-38" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-44" edge="1" parent="cDC9E2_19vPxRuhWPPhf-37" source="cDC9E2_19vPxRuhWPPhf-39" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-45" edge="1" parent="cDC9E2_19vPxRuhWPPhf-37" source="cDC9E2_19vPxRuhWPPhf-40" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="570" y="210" />
+              <mxPoint x="365" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-46" edge="1" parent="cDC9E2_19vPxRuhWPPhf-37" source="cDC9E2_19vPxRuhWPPhf-41" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-47" parent="1" style="swimlane;html=1;rounded=1;arcSize=8;whiteSpace=wrap;fillColor=#eef2ff;strokeColor=#6366f1;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#3730a3;startSize=34;shadow=1;" value="Digital Payment Flow" vertex="1">
+          <mxGeometry height="200" width="600" x="1550" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-48" parent="cDC9E2_19vPxRuhWPPhf-47" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#6366f1;strokeWidth=1.5;fontSize=13;spacing=8;" value="🛒&lt;br&gt;&lt;b&gt;FE Calls Purchase API&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Without OTP Verification JWT&lt;br&gt;Regular / One-tap Digital&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="240" x="180" y="65" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-49" parent="1" style="swimlane;html=1;rounded=1;arcSize=8;whiteSpace=wrap;fillColor=#f8fafc;strokeColor=#64748b;strokeWidth=2;fontSize=16;fontStyle=1;fontColor=#334155;startSize=34;shadow=1;" value="MyGP Product Order MS Processing" vertex="1">
+          <mxGeometry height="322" width="980" x="950" y="1978" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-50" parent="cDC9E2_19vPxRuhWPPhf-49" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;spacing=8;" value="📦&lt;br&gt;&lt;b&gt;Validate Request Body&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Check required fields&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="210" x="40" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-51" parent="cDC9E2_19vPxRuhWPPhf-49" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontSize=13;fontStyle=1;shadow=1;" value="Request Body Valid?" vertex="1">
+          <mxGeometry height="105" width="170" x="305" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-52" parent="cDC9E2_19vPxRuhWPPhf-49" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontSize=13;fontStyle=1;shadow=1;" value="DOB Payment?" vertex="1">
+          <mxGeometry height="105" width="150" x="535" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-53" parent="cDC9E2_19vPxRuhWPPhf-49" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ffffff;strokeColor=#64748b;strokeWidth=1.5;fontSize=13;spacing=8;" value="🔍&lt;br&gt;&lt;b&gt;Verify JWT Token&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Using JWT secret for DOB&lt;/font&gt;" vertex="1">
+          <mxGeometry height="95" width="210" x="735" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-54" edge="1" parent="cDC9E2_19vPxRuhWPPhf-49" source="cDC9E2_19vPxRuhWPPhf-50" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-55" edge="1" parent="cDC9E2_19vPxRuhWPPhf-49" source="cDC9E2_19vPxRuhWPPhf-51" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#16a34a;fontColor=#16a34a;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-52" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-56" edge="1" parent="cDC9E2_19vPxRuhWPPhf-49" source="cDC9E2_19vPxRuhWPPhf-52" style="endArrow=block;html=1;rounded=1;strokeWidth=2;strokeColor=#dc2626;fontColor=#dc2626;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-53" value="Yes">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-57" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f0fdf4;strokeColor=#22c55e;strokeWidth=2;fontSize=13;fontStyle=1;shadow=1;" value="JWT Valid?" vertex="1">
+          <mxGeometry height="100" width="150" x="2040" y="2055" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-58" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#ecfdf5;strokeColor=#10b981;strokeWidth=2;fontSize=13;spacing=10;shadow=1;" value="🔌&lt;br&gt;&lt;b&gt;Call SOL Purchase API&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;After validation passes&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="260" x="1290" y="2365" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-59" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#f97316;strokeWidth=2;fontSize=14;fontStyle=1;shadow=1;" value="Payment Method?" vertex="1">
+          <mxGeometry height="120" width="200" x="1320" y="2519" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-60" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#fff1f2;strokeColor=#f43f5e;strokeWidth=2;fontSize=13;spacing=10;shadow=1;" value="⏳&lt;br&gt;&lt;b&gt;Request Processing Response&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;For DOB payment&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="260" x="1010" y="2694" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-61" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#eef2ff;strokeColor=#6366f1;strokeWidth=2;fontSize=13;spacing=10;shadow=1;" value="✅ / ❌&lt;br&gt;&lt;b&gt;Success or Failed Response&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;For Digital based on SOL response&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="290" x="1570" y="2694" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-62" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=16;fillColor=#fef2f2;strokeColor=#ef4444;strokeWidth=2;fontSize=13;spacing=10;shadow=1;" value="❌&lt;br&gt;&lt;b&gt;Error Response to FE&lt;/b&gt;&lt;br&gt;&lt;font color=&quot;#6b7280&quot;&gt;Invalid body / invalid JWT&lt;/font&gt;" vertex="1">
+          <mxGeometry height="105" width="250" x="610" y="2107" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-63" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-35" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-64" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-36" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#dc2626;fontColor=#dc2626;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-38" value="DOB">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-65" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-36" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#2563eb;fontColor=#2563eb;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-48" value="Digital">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-66" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-42" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1885" />
+              <mxPoint x="1095" y="1885" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-67" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-48" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-50">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1670" y="1840" />
+              <mxPoint x="1095" y="1890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-68" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-51" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#dc2626;fontColor=#dc2626;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1255" y="2162" />
+              <mxPoint x="860" y="2162" />
+            </Array>
+            <mxPoint x="1340" y="2169" as="sourcePoint" />
+            <mxPoint x="860" y="2162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-69" edge="1" parent="1" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#2563eb;fontColor=#2563eb;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-58" value="No, Digital">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1570" y="2199" />
+              <mxPoint x="1420" y="2199" />
+            </Array>
+            <mxPoint x="1565.3846153846152" y="2157.2307692307686" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-70" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-53" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#64748b;" target="cDC9E2_19vPxRuhWPPhf-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1895" y="2103" />
+              <mxPoint x="2040" y="2103" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-71" edge="1" parent="1" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#dc2626;fontColor=#dc2626;fontStyle=1;" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2115" y="2250" />
+              <mxPoint x="735" y="2250" />
+            </Array>
+            <mxPoint x="2115" y="2177" as="sourcePoint" />
+            <mxPoint x="735" y="2210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-72" edge="1" parent="1" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#16a34a;fontColor=#16a34a;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-58" value="Yes">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2115" y="2420" />
+              <mxPoint x="1550" y="2420" />
+            </Array>
+            <mxPoint x="2115" y="2161" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-73" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-58" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#64748b;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="2525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-74" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-59" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#dc2626;fontColor=#dc2626;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-60" value="DOB">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cDC9E2_19vPxRuhWPPhf-75" edge="1" parent="1" source="cDC9E2_19vPxRuhWPPhf-59" style="endArrow=block;html=1;rounded=1;strokeWidth=2.5;strokeColor=#2563eb;fontColor=#2563eb;fontStyle=1;" target="cDC9E2_19vPxRuhWPPhf-61" value="Digital">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
